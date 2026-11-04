@@ -1,12 +1,10 @@
-🧠 Blood-Brain Barrier (BBB) Permeability Predictor
-
-
+# 🧠 Blood-Brain Barrier (BBB) Permeability Predictor
 
 An AI-driven cheminformatics predictive pipeline and interactive web application for classifying the Blood-Brain Barrier (BBB) permeability of drug-like molecules.
 
 This project bridges computational biology and machine learning, utilizing molecular feature extraction to predict whether a compound can successfully cross the BBB—a critical bottleneck in neuro-pharmaceutical drug discovery. The results are accessible through a clean, minimalistic user interface built with Streamlit.
 
-✨ Features
+# ✨ Features
 
 SMILES Parsing: Convert raw chemical structures input as SMILES strings into manipulable molecular objects using RDKit.
 
@@ -32,4 +30,40 @@ Data Visualization: Inspect feature importance rankings and molecular property d
 
 Export Capability: Download predictive results as a clean CSV report.
 
-Modern UI: Clean, zero-clutter glassmorphism user interface designed for scientific dashboards.
+# 📂 Project Structure
+
+BBB-Permeability-Predictor/
+│
+├── app.py                   # Main Streamlit web application
+├── model/
+│   ├── bbb_rf_model.pkl     # Trained Random Forest classifier
+│   └── scaler.pkl           # Feature standardization scaler
+│
+├── data/
+│   ├── sample_smiles.csv    # Example input file for batch processing
+│   └── bbb_training.csv     # Curated dataset used for model training
+│
+├── requirements.txt         # Project dependencies
+└── README.md
+
+# 🛠️ Technologies Used
+
+Language: Python 3
+
+Cheminformatics: RDKit
+
+Machine Learning: Scikit-Learn (Random Forest)
+
+Web Framework: Streamlit
+
+Data Processing: Pandas, NumPy
+
+Visualization: Matplotlib, Seaborn
+
+# Author
+Meghna Jagadeep 
+
+B.Tech Biotechnology
+
+Vellore Institute of Technology (VIT), Vellore
+
