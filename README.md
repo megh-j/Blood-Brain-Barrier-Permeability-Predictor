@@ -1,5 +1,6 @@
 🧠 Blood-Brain Barrier (BBB) Permeability Predictor
 
+
 An AI-driven cheminformatics predictive pipeline and interactive web application for classifying the Blood-Brain Barrier (BBB) permeability of drug-like molecules.
 
 This project bridges computational biology and machine learning, utilizing molecular feature extraction to predict whether a compound can successfully cross the BBB—a critical bottleneck in neuro-pharmaceutical drug discovery. The results are accessible through a clean, minimalistic user interface built with Streamlit.
