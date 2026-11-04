@@ -30,21 +30,6 @@ Data Visualization: Inspect feature importance rankings and molecular property d
 
 Export Capability: Download predictive results as a clean CSV report.
 
-# 📂 Project Structure
-
-BBB-Permeability-Predictor/
-│
-├── app.py                   # Main Streamlit web application
-├── model/
-│   ├── bbb_rf_model.pkl     # Trained Random Forest classifier
-│   └── scaler.pkl           # Feature standardization scaler
-│
-├── data/
-│   ├── sample_smiles.csv    # Example input file for batch processing
-│   └── bbb_training.csv     # Curated dataset used for model training
-│
-├── requirements.txt         # Project dependencies
-└── README.md
 
 # 🛠️ Technologies Used
 
